@@ -15,6 +15,11 @@ public class SpringBooAwsExampleApplication {
 
 	}
 
+	public void GetStatus(){
+	return "Geeting the current status";
+		
+	}
+	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBooAwsExampleApplication.class, args);
 	}
