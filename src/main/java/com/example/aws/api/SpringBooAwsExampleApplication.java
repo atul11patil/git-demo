@@ -11,7 +11,7 @@ public class SpringBooAwsExampleApplication {
 
 	@GetMapping("/status")
 	public String deploy(){
-	return "Application is deploy on AWS beanstalk";
+	return "Application is deploy on AWS Cloud";
 
 	}
 
